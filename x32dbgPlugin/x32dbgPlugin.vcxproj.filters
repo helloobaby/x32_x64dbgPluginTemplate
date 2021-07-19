@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{8e2478fa-61d2-4f71-bf30-802fac6148fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\pluginsdk\bridgegraph.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\bridgelist.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\bridgemain.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\dbghelp\dbghelp.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\DeviceNameResolver\DeviceNameResolver.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\jansson\jansson.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\jansson\jansson_config.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\jansson\jansson_x64dbg.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\lz4\lz4.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\lz4\lz4file.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\lz4\lz4hc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\TitanEngine\TitanEngine.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\XEDParse\XEDParse.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_dbgfunctions.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_plugins.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_plugin_types.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_argument.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_assembler.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_bookmark.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_comment.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_debug.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_flag.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_function.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_gui.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_label.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_memory.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_misc.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_module.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_pattern.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_register.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_stack.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pluginsdk\_scriptapi_symbol.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  plugin.cpp
+C:\Users\asdf\source\repos\x32_x64dbgPluginTemplate\x32dbgPlugin\plugin.cpp(19,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pluginmain.cpp
+C:\Users\asdf\source\repos\x32_x64dbgPluginTemplate\x32dbgPlugin\pluginmain.cpp(35,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在生成代码...
